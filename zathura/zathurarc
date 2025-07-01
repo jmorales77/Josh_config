@@ -23,48 +23,40 @@ map w recolor
 # map j 5k
 map <C-v> toggle_fullscreen
 
-set notification-error-bg       "#ebdbb2" # bg
-set notification-error-fg       "#9d0006" # bright:red
-set notification-warning-bg     "#ebdbb2" # bg
-set notification-warning-fg     "#b57614" # bright:yellow
-set notification-bg             "#ebdbb2" # bg
-set notification-fg             "#79740e" # bright:green
+set notification-error-bg       "#000000" 
+set notification-error-fg       "#ffffff" 
+set notification-warning-bg     "#000000" 
+set notification-warning-fg     "#ffffff" 
+set notification-bg             "#000000" 
+set notification-fg             "#ffffff"
 
-set completion-bg               "#d5c4a1" # bg2
-set completion-fg               "#3c3836" # fg
-set completion-group-bg         "#ebdbb2" # bg1
-set completion-group-fg         "#928374" # gray
-set completion-highlight-bg     "#076678" # bright:blue
-set completion-highlight-fg     "#d5c4a1" # bg2
+set completion-bg               "#000000"
+set completion-fg               "#ffffff"
+set completion-group-bg         "#000000" 
+set completion-group-fg         "#ffffff" 
+set completion-highlight-bg     "#ffffff" 
+set completion-highlight-fg     "#000000" 
 
 # Define the color in index mode
-set index-bg                    "#d5c4a1" # bg2
-set index-fg                    "#3c3836" # fg
-set index-active-bg             "#076678" # bright:blue
-set index-active-fg             "#d5c4a1" # bg2
+set index-bg                    "#000000" 
+set index-fg                    "#ffffff" 
+set index-active-bg             "#ffffff" 
+set index-active-fg             "#000000" 
 
-set inputbar-bg                 "#ebdbb2" # bg
-set inputbar-fg                 "#3c3836" # fg
+set inputbar-bg                 "#000000" 
+set inputbar-fg                 "#ffffff" 
 
-set statusbar-bg                "#d5c4a1" # bg2
-set statusbar-fg                "#3c3836" # fg
+set statusbar-bg                "#000000"
+set statusbar-fg                "#ffffff"
 set statusbar-v-padding         7
 
-# set highlight-color             "#bdae93" # light
-# set highlight-active-color      "#d5c4a1" # dark
-
-set default-bg                  "#1d2021" # bg
-set default-fg                  "#3c3836" # fg
+set default-bg                  "#000000"
+set default-fg                  "#ffffff"
 set render-loading              true
-set render-loading-bg           "#ebdbb2" # bg
-set render-loading-fg           "#3c3836" # fg
+set render-loading-bg           "#000000"
+set render-loading-fg           "#ffffff"
 
-# Recolor book content's color
-set recolor-lightcolor          "#ebdbb2" # bg
-set recolor-darkcolor           "#3c3836" # fg
-set recolor                     true
-# set recolor-keephue             true      # keep original color
-# set recolor-reverse-video       "true"
-
-# set backend to avoid errors
-set database "sqlite"
+# Recolor settings (set to same as original colors)
+set recolor-lightcolor          "#000000" 
+set recolor-darkcolor           "#ffffff"
+set recolor                     true   
